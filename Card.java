@@ -4,6 +4,7 @@ public class Card{
 
     private int value;
     private String suit;
+    private String[];
 
     /**
 	* Default empty Card constructor
@@ -29,5 +30,9 @@ public class Card{
 
     public String getSuit(){
         return this.suit;
+    }
+
+    public String getFace(){
+
     }
 }
